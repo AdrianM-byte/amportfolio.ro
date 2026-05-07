@@ -1,15 +1,13 @@
 import NavBar from "./components/navbar/Navbar"
 import Hero from './components/hero/Hero'
+import About from './components/about/About'
 
 function App() {
   return (
     <div>
       <NavBar />
       <Hero />
-
-      <section id="about">
-        <h1>About</h1>
-      </section>
+      <About />
 
       <section id = "services">
         <h1>Services</h1>

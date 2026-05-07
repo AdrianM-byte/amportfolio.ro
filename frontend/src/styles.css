@@ -301,3 +301,152 @@ header {
 
     text-align: center;
 }
+
+.services {
+    display: flex;
+    justify-content: center;
+
+    padding: 80px 40px;
+
+    min-height:auto;
+}
+
+.services-card {
+    width: 100%;
+    max-width: 1600px;
+
+    background: linear-gradient(
+        135deg,
+        #150000,
+        #0c0000,
+        #060606
+    );
+
+    border: 2px solid rgba(255, 0, 0, 0.2);
+    border-radius: 24px;
+
+    padding: 60px;
+
+    box-shadow:
+        0 0 15px rgba(255, 0, 0, 0.08),
+        0 0 40px rgba(0, 0, 0, 0.45);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.service-box {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 0, 0, 0.2);
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    text-align: center;
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 0, 0, 0.5);
+}
+
+.service-box h3 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.service-box p {
+    font-size: 18px; 
+    line-height: 1.8l;
+    color: #d0d0d0;
+}
+
+.service-box:last-child {
+    grid-column: 2;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+
+    padding: 80px 40px;
+
+    min-height: auto;
+}
+
+.projects-card {
+    width: 100%;
+    max-width: 1600px;
+    
+    background: linear-gradient(
+        135deg,
+        #140000,
+        #0b0000,
+        #050505
+    );
+
+    border: 2px solid rgba(255, 0, 0, 0.2);
+    border-radius: 24px;
+
+    padding: 60px;
+
+    box-shadow:
+        0 0 15px rgba(255, 0, 0, 0.08),
+        0 0 40px rgba(0, 0, 0, 0.45);
+}
+
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+
+    gap: 35px;
+
+    margin-top: 50px;
+}
+
+.project-box {
+    background: rgba(0, 0, 0, 0.22);
+
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    border-radius: 22px;
+
+    padding: 40px;
+
+    transition: 0.3s;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 0, 0, 0.5);
+}
+
+.project-box h3 {
+    font-size: 34px; 
+    margin-bottom: 25px;
+    color: white;
+}
+
+.project-box p {
+    font-size: 20px;
+    line-height: 1.9;
+    color: #d8d8d8;
+
+    margin-bottom: 25px;
+}
+
+.project-box span {
+    display: inline-block;
+    color: #ff6b6b;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+

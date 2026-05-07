@@ -1,6 +1,8 @@
 import NavBar from "./components/navbar/Navbar"
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
+import Services from './components/services/Services'
+import Projects from './components/projects/Projects'
 
 function App() {
   return (
@@ -8,14 +10,8 @@ function App() {
       <NavBar />
       <Hero />
       <About />
-
-      <section id = "services">
-        <h1>Services</h1>
-      </section>
-
-      <section id = "projects">
-        <h1>Projects</h1>
-      </section>
+      <Services />
+      <Projects />
 
       <section id="certifications">
         <h1>Certifications</h1>

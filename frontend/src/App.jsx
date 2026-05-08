@@ -5,7 +5,6 @@ import Services from './components/services/Services'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
-import ProjectShowcase from "./components/projectShowcase/ProjectShowcase"
 
 import './styles.css'
 

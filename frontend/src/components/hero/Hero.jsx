@@ -20,13 +20,6 @@ function Hero() {
 
                     <div className="hero-divider">  </div>
 
-                    <div className="hero-buttons">
-                        <button> View Projects</button>
-                        <button> Contact Me</button>
-                    </div>
-
-                    <div className="hero-divider">  </div>
-
                     <div className="hero-skills">
                         <div className="skill-card">
                             <h3>QA Engineering</h3>

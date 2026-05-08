@@ -18,7 +18,7 @@ function Navbar() {
           <a href="#about">About</a>
           <a href="#services">Services</a>
           <a href="#projects">Projects</a>
-          <a href="#certifications">Certifications</a>
+          <a href="#certifications">Skills & Technologies</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>

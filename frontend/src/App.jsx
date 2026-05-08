@@ -3,6 +3,8 @@ import Hero from './components/hero/Hero'
 import About from './components/about/About'
 import Services from './components/services/Services'
 import Projects from './components/projects/Projects'
+import Skills from './components/skills/Skills'
+import Contact from './components/contact/Contact'
 
 function App() {
   return (
@@ -12,14 +14,8 @@ function App() {
       <About />
       <Services />
       <Projects />
-
-      <section id="certifications">
-        <h1>Certifications</h1>
-      </section>
-
-      <section id="contact">
-        <h1>Contact</h1>
-      </section>
+      <Skills />
+      <Contact />
     </div>
   )
 }

@@ -1,10 +1,16 @@
+import logo from '../../assets/am-logo.png'
+
 function Navbar() {
   return (
     <header>
-
-      <div className="top-title">
-        <h1>Adrian Marcu | Professional Website</h1>
+      <div className="navbar-brand">
+        <img
+          src={logo}
+          alt="Adrian Marcu Logo"
+          className="navbar-logo"
+        />
       </div>
+      <div className="navbar-divider"></div>
 
       <nav>
         <div className="nav-links">

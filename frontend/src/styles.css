@@ -983,17 +983,24 @@ nav {
         line-height: 1.2;
     }
 
-    .tech-stack {
+    .project-tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .showcase-gallery {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
     }
 
-    .project-image {
-        width: 80px;
-        height: auto;
-    }
+    .showcase-image {
+    width: 100%;
+    height: auto;
+}
 
     .projects-grid {
         grid-template-columns: 1fr;
@@ -1032,5 +1039,10 @@ nav {
         padding-left: 12px;
         padding-right: 12px;
     }
+
+    .contact-email {
+        word-break: break-word;
+    }
+
 
 }

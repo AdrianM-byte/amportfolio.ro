@@ -913,3 +913,90 @@ nav {
 .lightbox-arrow.right {
     right: 40px;
 }
+
+@media (max-width: 768px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navbar-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar-links a {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    .hero-card {
+        width: 90%;
+        padding: 20px;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    .hero-title {
+        font-size: 42px;
+        line-height: 1.5;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        width: 90%;
+        max-width: 400px; 
+    }
+
+    .project-card,
+    .service-card {
+        width: 95%;
+        max-width: 500px;
+    }
+
+    .project-card h3 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .project-image {
+        width: 80px;
+        height: auto;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

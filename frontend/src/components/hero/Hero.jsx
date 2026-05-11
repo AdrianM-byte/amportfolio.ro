@@ -9,13 +9,24 @@ function Hero() {
                     <div className="hero-divider">  </div>
 
                     <h2 className="hero-role">
-                        QA Engineering • Frontend & Backend Testing • SQL Validation • Python Tooling • Web Solutions
+                        QA Engineering • Frontend & Backend Testing • SQL Validation • Python Tooling
                     </h2>
 
                     <p className="hero-description">
                         Senior QA Engineer with 10+ years of experience in manual testing,
                         web testing, backend validation, SQL-based data verification,
                         ETL testing, and automation-oriented workflows.
+                    </p>
+
+                    <div className="hero-divider">  </div>
+
+                    <h2 className="hero-role">
+                        Web Solutions • Modern Website Creation • Landing Pages • Website Redesign • Website Maintenance
+                    </h2>
+
+                    <p className="hero-description">
+                        Modern portfolio focused on creating, redesigning, and maintaining professional websites for businesses and personal brands, 
+                        with clean modern design, responsive layouts, and user-friendly experiences tailored to each client's needs.
                     </p>
 
                     <div className="hero-divider">  </div>

@@ -19,11 +19,9 @@ function Services() {
                     </div>
 
                     <div className="service-box">
-                        <h3>Python Tooling</h3>
+                        <h3>Automation & Reporting</h3>
                         <p>
-                            Internal validation tools, reporting utilities,
-                            automation-oriented workflows,
-                            and scalable Python-based quality solutions.
+                            Custom automation workflows, validation utilities, reporting tools, and scalable Python-based solutions for repetitive or business-oriented processes.
                         </p>
                     </div>
 
@@ -39,8 +37,16 @@ function Services() {
                         </p>
                     </div>
 
+                    <div className='service-box'>
+                        <h3>Website Redesign & Maintenance</h3>
+
+                        <p>
+                            Website redesigns, maintenance, updates, and modern UI improvements for outdated or existing business websites.
+                        </p>
+                    </div>
+
                     <div className="service-box">
-                        <h3> Supporting Design Work </h3>
+                        <h3> Visual Branding Support </h3>
                         <p>
                             Basic logo creation,
                             supporting visual assets,

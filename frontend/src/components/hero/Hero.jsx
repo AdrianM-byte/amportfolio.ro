@@ -1,79 +1,119 @@
-function Hero() {
+function Hero({ t }) {
     return (
         <section id="hero" className="hero">
             <div className="hero-card">
                 <div className="hero-content">
-                    <p className="hero-subtitle">Independent QA & Web Delivery Partner</p>
+
+                    <p className="hero-subtitle">
+                        {t.hero.hero_subtitle}
+                    </p>
 
                     <h1 className="hero-title">
-                        Reliable QA Engineering, Automation Solutions & Modern Web Development for growing businesses.
+                        {t.hero.hero_title}
                     </h1>
 
                     <div className="hero-divider"></div>
 
                     <p className="hero-description hero-lead">
-                        Senior QA Engineer with 10+ years of experience in frontend and backend testing, SQL validation, ETL workflows, automation-oriented processes, and quality assurance delivery across complex systems.
+                        {t.hero.hero_description}
                     </p>
 
                     <div className="hero-divider"></div>
 
                     <p className="hero-description hero-lead">
-                        Building modern business websites, portfolio platforms, and automation-focused solutions with clean UI design, responsive layouts, and scalable frontend architecture.
+                        {t.hero.hero_lead}
                     </p>
 
                     <div className="hero-divider"></div>
 
                     <div className="hero-actions">
-                        <a className="primary-action" href="#contact">Discuss a collaboration</a>
-                        <a className="secondary-action" href="#services">View services</a>
+
+                        <a className="primary-action" href="#contact">
+                            {t.hero.primary_action}
+                        </a>
+
+                        <a className="secondary-action" href="#services">
+                            {t.hero.secondary_action}
+                        </a>
+
                     </div>
 
                     <div className="hero-proof">
+
                         <div>
-                            <strong>10+ years</strong>
-                            <span>QA experience</span>
+                            <strong>{t.hero.hero_proof_1_str}</strong>
+                            <span>{t.hero.hero_proof_1}</span>
                         </div>
+
                         <div>
-                            <strong>SQL & ETL</strong>
-                            <span>validation focus</span>
+                            <strong>{t.hero.hero_proof_2_str}</strong>
+                            <span>{t.hero.hero_proof_2}</span>
                         </div>
+
                         <div>
-                            <strong>Python</strong>
-                            <span>tooling and reporting</span>
+                            <strong>{t.hero.hero_proof_3_str}</strong>
+                            <span>{t.hero.hero_proof_3}</span>
                         </div>
+
                         <div>
-                            <strong>React</strong>
-                            <span>modern web delivery</span>
+                            <strong>{t.hero.hero_proof_4_str}</strong>
+                            <span>{t.hero.hero_proof_4}</span>
                         </div>
+
                     </div>
 
                     <div className="hero-divider"></div>
 
                     <div className="hero-skills">
+
                         <div className="skill-card">
-                            <span className="card-kicker">Quality</span>
-                            <h3>QA Engineering</h3>
+                            <span className="card-kicker">
+                                {t.hero.card_kicker_1}
+                            </span>
+
+                            <h3>
+                                {t.hero.card_kicker_1_h}
+                            </h3>
+
                             <p>
-                                Manual, frontend, backend, regression and integration testing focused on stable and reliable product delivery.
+                                {t.hero.card_kicker_1_p}
                             </p>
                         </div>
 
                         <div className="skill-card">
-                            <span className="card-kicker">Efficiency</span>
-                            <h3>Validation Tooling</h3>
+
+                            <span className="card-kicker">
+                                {t.hero.card_kicker_2}
+                            </span>
+
+                            <h3>
+                                {t.hero.card_kicker_2_h}
+                            </h3>
+
                             <p>
-                                Python-based tooling, SQL validation, reporting automation and workflow optimization for recurring business operations.
+                                {t.hero.card_kicker_2_p}
                             </p>
+
                         </div>
 
                         <div className="skill-card">
-                            <span className="card-kicker">Presence</span>
-                            <h3>Business Websites</h3>
+
+                            <span className="card-kicker">
+                                {t.hero.card_kicker_3}
+                            </span>
+
+                            <h3>
+                                {t.hero.card_kicker_3_h}
+                            </h3>
+
                             <p>
-                                Modern business websites, landing pages and portfolio platforms designed for clarity, responsiveness and professional online presence.
+                                {t.hero.card_kicker_3_p}
                             </p>
+
                         </div>
+
                     </div>
+
                 </div>
             </div>
         </section>

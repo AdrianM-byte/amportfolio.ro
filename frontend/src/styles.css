@@ -867,6 +867,11 @@ nav a:hover,
   .featured-project {
     grid-row: auto;
   }
+
+  .language-switcher {
+  justify-content: center;
+  width: 100%;
+}
 }
 
 @media (max-width: 640px) {
@@ -979,4 +984,44 @@ nav a:hover,
   .lightbox-arrow.right {
     right: 12px;
   }
+
+  .language-switcher {
+  justify-content: center;
+  width: 100%;
 }
+}
+
+.language-switcher {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.language-switcher button {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 0, 0, 0.18);
+
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 999px;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.language-switcher button:hover {
+  background: rgba(255, 0, 0, 0.08);
+  border-color: rgba(255, 0, 0, 0.35);
+}
+
+.active-language {
+  background: linear-gradient(
+    135deg,
+    #c41212,
+    #5a0b0b
+  );
+
+  border-color: rgba(255, 0, 0, 0.45) !important;
+}
+

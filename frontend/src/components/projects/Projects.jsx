@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function Projects() {
+function Projects({ t }) {
 
     const horizonImages = [
         '/images/horizon-1.png',
@@ -36,8 +36,13 @@ function Projects() {
 
             <div className="projects-card">
 
-                <p className="section-eyebrow">Selected Work</p>
-                <h2 className="section-title">Practical systems built around validation, clarity and business use.</h2>
+                <p className="section-eyebrow">
+                    {t.projects.section_eyebrow}
+                </p>
+
+                <h2 className="section-title">
+                    {t.projects.section_title}
+                </h2>
 
                 <div className="section-divider"></div>
 
@@ -47,13 +52,16 @@ function Projects() {
 
                         <div className="project-box">
 
-                            <span className="project-label">QA platform concept</span>
-                            <h3>Project Horizon</h3>
+                            <span className="project-label">
+                                {t.projects.project_label_1}
+                            </span>
+
+                            <h3>
+                                {t.projects.project_label_1_h}
+                            </h3>
 
                             <p>
-                                Internal QA-oriented platform designed for SQL validation,
-                                ETL comparison workflows, automated reporting,
-                                and multi-environment verification.
+                                {t.projects.project_label_1_p}
                             </p>
 
                             <div className="project-tags">
@@ -71,7 +79,7 @@ function Projects() {
                         <div className="project-showcase">
 
                             <div className="showcase-header">
-                                Project Horizon Interface
+                                {t.projects.showcase_header_1}
                             </div>
 
                             <div className="showcase-gallery">
@@ -98,12 +106,16 @@ function Projects() {
 
                         <div className="project-box">
 
-                            <span className="project-label">Data utility</span>
-                            <h3>Data Comparison Tool</h3>
+                            <span className="project-label">
+                                {t.projects.project_label_2}
+                            </span>
+
+                            <h3>
+                                {t.projects.project_label_2_h}
+                            </h3>
 
                             <p>
-                                Validation-focused utility for detecting differences
-                                between structured datasets and supporting QA workflows.
+                                {t.projects.project_label_2_p}
                             </p>
 
                             <div className="project-tags">
@@ -117,10 +129,15 @@ function Projects() {
                         </div>
 
                         <div className="project-showcase project-placeholder">
+
                             <div className="showcase-header">
-                                Dataset validation workflow
+                                {t.projects.showcase_header_2}
                             </div>
-                            <p>Structured comparison, issue detection and reporting support.</p>
+
+                            <p>
+                                {t.projects.showcase_header_2_p}
+                            </p>
+
                         </div>
 
                     </div>
@@ -129,12 +146,16 @@ function Projects() {
 
                         <div className="project-box">
 
-                            <span className="project-label">Automation concept</span>
-                            <h3>Automated PC Builder - WIP</h3>
+                            <span className="project-label">
+                                {t.projects.showcase_header_3}
+                            </span>
+
+                            <h3>
+                                {t.projects.showcase_header_3_h}
+                            </h3>
 
                             <p>
-                                Smart PC configuration platform with automation,
-                                compatibility validation, and multi-store comparison.
+                                {t.projects.showcase_header_3_p}
                             </p>
 
                             <div className="project-tags">
@@ -148,10 +169,15 @@ function Projects() {
                         </div>
 
                         <div className="project-showcase project-placeholder">
+
                             <div className="showcase-header">
-                                Compatibility and price comparison
+                                {t.projects.project_label_4}
                             </div>
-                            <p>Automation-driven research flow for hardware configurations.</p>
+
+                            <p>
+                                {t.projects.project_label_4_p}
+                            </p>
+
                         </div>
 
                     </div>
@@ -160,12 +186,16 @@ function Projects() {
 
                         <div className="project-box">
 
-                            <span className="project-label">Planning tool concept</span>
-                            <h3>Smart House Planner - WIP</h3>
+                            <span className="project-label">
+                                {t.projects.project_label_5}
+                            </span>
+
+                            <h3>
+                                {t.projects.project_label_5_h}
+                            </h3>
 
                             <p>
-                                Constraint-based planning tool for generating
-                                optimized house layouts and room structures.
+                                {t.projects.project_label_5_p}
                             </p>
 
                             <div className="project-tags">
@@ -179,10 +209,15 @@ function Projects() {
                         </div>
 
                         <div className="project-showcase project-placeholder">
+
                             <div className="showcase-header">
-                                Planning logic and visual interface
+                                {t.projects.showcase_header_6}
                             </div>
-                            <p>Constraint-based structure for configurable layout decisions.</p>
+
+                            <p>
+                                {t.projects.showcase_header_6_p}
+                            </p>
+
                         </div>
 
                     </div>

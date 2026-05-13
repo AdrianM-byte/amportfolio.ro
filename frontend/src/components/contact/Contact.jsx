@@ -1,28 +1,49 @@
-function Contact() {
+function Contact({ t }) {
     return (
         <section id="contact" className="contact">
+
             <div className="contact-card">
 
-                <p className="section-eyebrow">Start A Conversation</p>
-                <h2 className="section-title">Looking for a reliable collaborator for QA, tooling or web delivery?</h2>
+                <p className="section-eyebrow">
+                    {t.contact.section_eyebrow}
+                </p>
+
+                <h2 className="section-title">
+                    {t.contact.section_title}
+                </h2>
 
                 <div className="section-divider"></div>
 
                 <p className="contact-description">
-                    Send a short message with your project context, timeline and the type of support you need.
-                    I can help with focused tasks, ongoing collaboration or a clear first assessment.
+                    {t.contact.contact_description}
                 </p>
 
                 <div className="contact-highlights">
-                    <span>QA support</span>
-                    <span>SQL validation</span>
-                    <span>Python tooling</span>
-                    <span>Website delivery</span>
+
+                    <span>
+                        {t.contact.contact_highlights_1}
+                    </span>
+
+                    <span>
+                        {t.contact.contact_highlights_2}
+                    </span>
+
+                    <span>
+                        {t.contact.contact_highlights_3}
+                    </span>
+
+                    <span>
+                        {t.contact.contact_highlights_4}
+                    </span>
+
                 </div>
 
                 <div className="contact-links">
 
-                    <a className="contact-email" href="mailto:adrianmarcu.tech@gmail.com">
+                    <a
+                        className="contact-email"
+                        href="mailto:adrianmarcu.tech@gmail.com"
+                    >
                         adrianmarcu.tech@gmail.com
                     </a>
 
@@ -49,7 +70,9 @@ function Contact() {
                 </div>
 
             </div>
+
         </section>
     )
 }
+
 export default Contact

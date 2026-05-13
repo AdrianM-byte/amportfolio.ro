@@ -1,61 +1,76 @@
 function Hero() {
     return (
-        <section id="hero" clasName="hero">
+        <section id="hero" className="hero">
             <div className="hero-card">
                 <div className="hero-content">
+                    <p className="hero-subtitle">Independent QA & Web Delivery Partner</p>
+
                     <h1 className="hero-title">
-                        Adrian Marcu
+                        Reliable QA Engineering, Automation Solutions & Modern Web Development for growing businesses.
                     </h1>
-                    <div className="hero-divider">  </div>
 
-                    <h2 className="hero-role">
-                        QA Engineering • Frontend & Backend Testing • SQL Validation • Python Tooling
-                    </h2>
+                    <div className="hero-divider"></div>
 
-                    <p className="hero-description">
-                        Senior QA Engineer with 10+ years of experience in manual testing,
-                        web testing, backend validation, SQL-based data verification,
-                        ETL testing, and automation-oriented workflows.
+                    <p className="hero-description hero-lead">
+                        Senior QA Engineer with 10+ years of experience in frontend and backend testing, SQL validation, ETL workflows, automation-oriented processes, and quality assurance delivery across complex systems.
                     </p>
 
-                    <div className="hero-divider">  </div>
+                    <div className="hero-divider"></div>
 
-                    <h2 className="hero-role">
-                        Web Solutions • Modern Website Creation • Landing Pages • Website Redesign • Website Maintenance
-                    </h2>
-
-                    <p className="hero-description">
-                        Modern portfolio focused on creating, redesigning, and maintaining professional websites for businesses and personal brands, 
-                        with clean modern design, responsive layouts, and user-friendly experiences tailored to each client's needs.
+                    <p className="hero-description hero-lead">
+                        Building modern business websites, portfolio platforms, and automation-focused solutions with clean UI design, responsive layouts, and scalable frontend architecture.
                     </p>
 
-                    <div className="hero-divider">  </div>
+                    <div className="hero-divider"></div>
+
+                    <div className="hero-actions">
+                        <a className="primary-action" href="#contact">Discuss a collaboration</a>
+                        <a className="secondary-action" href="#services">View services</a>
+                    </div>
+
+                    <div className="hero-proof">
+                        <div>
+                            <strong>10+ years</strong>
+                            <span>QA experience</span>
+                        </div>
+                        <div>
+                            <strong>SQL & ETL</strong>
+                            <span>validation focus</span>
+                        </div>
+                        <div>
+                            <strong>Python</strong>
+                            <span>tooling and reporting</span>
+                        </div>
+                        <div>
+                            <strong>React</strong>
+                            <span>modern web delivery</span>
+                        </div>
+                    </div>
+
+                    <div className="hero-divider"></div>
 
                     <div className="hero-skills">
                         <div className="skill-card">
+                            <span className="card-kicker">Quality</span>
                             <h3>QA Engineering</h3>
                             <p>
-                                Manual testing, backend validation,
-                                web testing, SQL verification,
-                                ETL workflows, and quality assurance processes.
+                                Manual, frontend, backend, regression and integration testing focused on stable and reliable product delivery.
                             </p>
                         </div>
 
                         <div className="skill-card">
-                            <h3>Python tooling</h3>
+                            <span className="card-kicker">Efficiency</span>
+                            <h3>Validation Tooling</h3>
                             <p>
-                                Building internal tools, automation-oriented workflows,
-                                reporting utilities, and scalable validation solutions
-                                using Python and modern development practices.
+                                Python-based tooling, SQL validation, reporting automation and workflow optimization for recurring business operations.
                             </p>
                         </div>
 
                         <div className="skill-card">
-                            <h3> Web Building & Design</h3>
-                            <p> 
-                                Professional portfolio websites,
-                                business landing pages, logo creation,
-                                and supporting visual branding assets.
+                            <span className="card-kicker">Presence</span>
+                            <h3>Business Websites</h3>
+                            <p>
+                                Modern business websites, landing pages and portfolio platforms designed for clarity, responsiveness and professional online presence.
                             </p>
                         </div>
                     </div>

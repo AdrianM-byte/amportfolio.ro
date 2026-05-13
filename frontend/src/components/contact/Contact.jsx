@@ -3,20 +3,28 @@ function Contact() {
         <section id="contact" className="contact">
             <div className="contact-card">
 
-                <h2 className="section-title">Contact Me</h2>
+                <p className="section-eyebrow">Start A Conversation</p>
+                <h2 className="section-title">Looking for a reliable collaborator for QA, tooling or web delivery?</h2>
 
                 <div className="section-divider"></div>
 
                 <p className="contact-description">
-                    Interested in collaboration, QA-oriented projects,
-                    automation-focused solutions, or professional website creation?
+                    Send a short message with your project context, timeline and the type of support you need.
+                    I can help with focused tasks, ongoing collaboration or a clear first assessment.
                 </p>
+
+                <div className="contact-highlights">
+                    <span>QA support</span>
+                    <span>SQL validation</span>
+                    <span>Python tooling</span>
+                    <span>Website delivery</span>
+                </div>
 
                 <div className="contact-links">
 
-                    <p className="contact-email">
+                    <a className="contact-email" href="mailto:adrianmarcu.tech@gmail.com">
                         adrianmarcu.tech@gmail.com
-                    </p>
+                    </a>
 
                     <div className="contact-buttons">
 

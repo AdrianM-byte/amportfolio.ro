@@ -36,18 +36,18 @@ function Projects() {
 
             <div className="projects-card">
 
-                <h2 className="section-title">My Projects</h2>
+                <p className="section-eyebrow">Selected Work</p>
+                <h2 className="section-title">Practical systems built around validation, clarity and business use.</h2>
 
                 <div className="section-divider"></div>
 
                 <div className="projects-grid">
 
-                    {/* PROJECT HORIZON */}
-
-                    <div className="project-unit">
+                    <div className="project-unit featured-project">
 
                         <div className="project-box">
 
+                            <span className="project-label">QA platform concept</span>
                             <h3>Project Horizon</h3>
 
                             <p>
@@ -94,12 +94,11 @@ function Projects() {
 
                     </div>
 
-                    {/* DATA COMPARISON TOOL */}
-
                     <div className="project-unit">
 
                         <div className="project-box">
 
+                            <span className="project-label">Data utility</span>
                             <h3>Data Comparison Tool</h3>
 
                             <p>
@@ -117,22 +116,20 @@ function Projects() {
 
                         </div>
 
-                        <div className="project-showcase">
-
+                        <div className="project-showcase project-placeholder">
                             <div className="showcase-header">
-                                Data Comparison Tool Interface
+                                Dataset validation workflow
                             </div>
-
+                            <p>Structured comparison, issue detection and reporting support.</p>
                         </div>
 
                     </div>
-
-                    {/* AUTOMATED PC BUILDER */}
 
                     <div className="project-unit">
 
                         <div className="project-box">
 
+                            <span className="project-label">Automation concept</span>
                             <h3>Automated PC Builder - WIP</h3>
 
                             <p>
@@ -150,22 +147,20 @@ function Projects() {
 
                         </div>
 
-                        <div className="project-showcase">
-
+                        <div className="project-showcase project-placeholder">
                             <div className="showcase-header">
-                                Automated PC Builder Interface
+                                Compatibility and price comparison
                             </div>
-
+                            <p>Automation-driven research flow for hardware configurations.</p>
                         </div>
 
                     </div>
-
-                    {/* SMART HOUSE PLANNER */}
 
                     <div className="project-unit">
 
                         <div className="project-box">
 
+                            <span className="project-label">Planning tool concept</span>
                             <h3>Smart House Planner - WIP</h3>
 
                             <p>
@@ -183,12 +178,11 @@ function Projects() {
 
                         </div>
 
-                        <div className="project-showcase">
-
+                        <div className="project-showcase project-placeholder">
                             <div className="showcase-header">
-                                Smart House Planner Interface
+                                Planning logic and visual interface
                             </div>
-
+                            <p>Constraint-based structure for configurable layout decisions.</p>
                         </div>
 
                     </div>
@@ -197,8 +191,6 @@ function Projects() {
 
             </div>
 
-            {/* LIGHTBOX */}
-
             {selectedImageIndex !== null && (
 
                 <div className="lightbox-overlay">
@@ -206,15 +198,17 @@ function Projects() {
                     <button
                         className="lightbox-close"
                         onClick={closeImage}
+                        aria-label="Close image preview"
                     >
-                        ×
+                        &times;
                     </button>
 
                     <button
                         className="lightbox-arrow left"
                         onClick={previousImage}
+                        aria-label="Previous image"
                     >
-                        ←
+                        &larr;
                     </button>
 
                     <img
@@ -226,8 +220,9 @@ function Projects() {
                     <button
                         className="lightbox-arrow right"
                         onClick={nextImage}
+                        aria-label="Next image"
                     >
-                        →
+                        &rarr;
                     </button>
 
                 </div>

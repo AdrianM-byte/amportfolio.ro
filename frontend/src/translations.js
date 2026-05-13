@@ -133,6 +133,37 @@ export const translations = {
             contact_highlights_4: "Website delivery",
         },
 
+        about: {
+
+            section_eyebrow: "Professional Profile",
+
+            section_title:
+                "A hands-on delivery partner for quality, data checks and digital presentation.",
+
+            about_text_1:
+                "I bring 10+ years of QA experience across manual testing, web testing, backend validation, SQL-based verification, ETL workflows and multi-platform quality assurance.",
+
+            about_text_2:
+                "My work is useful for companies that need a reliable external collaborator: someone who can understand business context, test carefully, communicate clearly, and build practical tools that reduce repetitive validation work.",
+
+            about_text_3:
+                "Alongside QA and tooling, I also support businesses with professional presentation websites, landing pages, redesigns and maintenance, keeping the focus on clarity, trust and responsive user experience.",
+
+            about_panel_h: "How I fit into a team",
+
+            about_panel_1:
+                "Independent contributor for short or ongoing QA support",
+
+            about_panel_2:
+                "Validation partner for SQL, ETL and data-heavy workflows",
+
+            about_panel_3:
+                "Builder of lightweight Python utilities and reports",
+
+            about_panel_4:
+                "Frontend collaborator for polished business websites",
+        },
+
     },
 
     ro: {
@@ -303,6 +334,37 @@ export const translations = {
             contact_highlights_2: "Validare SQL",
             contact_highlights_3: "Instrumente Python",
             contact_highlights_4: "Livrare website"
-        }
+        },
+
+        about: {
+
+            section_eyebrow: "Profil Profesional",
+
+            section_title:
+                "Un partener orientat spre livrare practică pentru calitate, validare de date și prezentare digitală.",
+
+            about_text_1:
+                "Aduc peste 10 ani de experiență QA în testare manuală, web testing, validare backend, verificări SQL, fluxuri ETL și asigurarea calității pentru platforme multiple.",
+
+            about_text_2:
+                "Colaborarea mea este utilă companiilor care au nevoie de un partener extern de încredere: cineva care înțelege contextul de business, testează atent, comunică clar și construiește tool-uri practice pentru reducerea muncii repetitive de validare.",
+
+            about_text_3:
+                "Pe lângă QA și tooling, ajut business-uri și cu website-uri de prezentare, landing pages, redesign și mentenanță, menținând accentul pe claritate, încredere și experiență responsive.",
+
+            about_panel_h: "Cum mă integrez într-o echipă",
+
+            about_panel_1:
+                "Contributor independent pentru suport QA punctual sau recurent",
+
+            about_panel_2:
+                "Partener de validare pentru SQL, ETL și fluxuri bazate pe date",
+
+            about_panel_3:
+                "Dezvoltator de utilitare și rapoarte Python lightweight",
+
+            about_panel_4:
+                "Colaborator frontend pentru website-uri business moderne",
+        },
     }
 }

@@ -1,53 +1,79 @@
-function About() {
+function About({ t }) {
     return (
         <section id="about" className="about">
+
             <div className="about-card">
-                <p className="section-eyebrow">Professional Profile</p>
+
+                <p className="section-eyebrow">
+                    {t.about.section_eyebrow}
+                </p>
+
                 <h2 className="section-title">
-                    A hands-on delivery partner for quality, data checks and digital presentation.
+                    {t.about.section_title}
                 </h2>
 
                 <div className="section-divider"></div>
 
                 <div className="about-layout">
+
                     <div className="about-copy">
+
                         <p className="about-text">
-                            I bring 10+ years of QA experience across manual testing, web testing,
-                            backend validation, SQL-based verification, ETL workflows and multi-platform
-                            quality assurance.
+                            {t.about.about_text_1}
                         </p>
 
                         <div className="section-divider"></div>
 
                         <p className="about-text">
-                            My work is useful for companies that need a reliable external collaborator:
-                            someone who can understand business context, test carefully, communicate clearly,
-                            and build practical tools that reduce repetitive validation work.
+                            {t.about.about_text_2}
                         </p>
 
                         <div className="section-divider"></div>
 
                         <p className="about-text">
-                            Alongside QA and tooling, I also support businesses with professional presentation
-                            websites, landing pages, redesigns and maintenance, keeping the focus on clarity,
-                            trust and responsive user experience.
+                            {t.about.about_text_3}
                         </p>
+
                     </div>
 
                     <div className="about-panel">
-                        <h3>How I fit into a team</h3>
+
+                        <h3>
+                            {t.about.about_panel_h}
+                        </h3>
+
                         <ul>
-                            <li>Independent contributor for short or ongoing QA support</li>
+
+                            <li>
+                                {t.about.about_panel_1}
+                            </li>
+
                             <div className="section-divider"></div>
-                            <li>Validation partner for SQL, ETL and data-heavy workflows</li>
+
+                            <li>
+                                {t.about.about_panel_2}
+                            </li>
+
                             <div className="section-divider"></div>
-                            <li>Builder of lightweight Python utilities and reports</li>
+
+                            <li>
+                                {t.about.about_panel_3}
+                            </li>
+
                             <div className="section-divider"></div>
-                            <li>Frontend collaborator for polished business websites</li>
+
+                            <li>
+                                {t.about.about_panel_4}
+                            </li>
+
                         </ul>
+
                     </div>
+
                 </div>
+
             </div>
+
         </section>
     )
 }
